@@ -21,7 +21,7 @@ npx astro add tailwind
 You can download Libadwaita Web with Nexo:
 
 ```Bash
-nexo download https://github.com/HexaWorksOfficial/Libadwaita-Web/archive/refs/heads/main.zip -o ~/Downloads/main.zip
+nexo download https://github.com/HexaWorksOfficial/Libadwaita-Web/archive/refs/heads/main.zip -o ~/Downloads/Libadwaita-Web-main.zip
 ```
 
 **With curl:**
@@ -29,13 +29,13 @@ nexo download https://github.com/HexaWorksOfficial/Libadwaita-Web/archive/refs/h
 Or with curl:
 
 ```Bash
-curl -o https://github.com/HexaWorksOfficial/Libadwaita-Web/archive/refs/heads/main.zip ~/Downloads/main.zip
+curl -o https://github.com/HexaWorksOfficial/Libadwaita-Web/archive/refs/heads/main.zip ~/Downloads/Libadwaita-Web-main.zip
 ```
 
 **2 -** unstract the `.zip`:
 
 ```Bash
-unzip ~/Downloads/main.zip
+unzip ~/Downloads/Libadwaita-Web-main.zip
 ```
 
 
@@ -56,11 +56,11 @@ rm src/styles/global.css src/pages/index.astro
 **3 -** Copy the new `global.css` and `index.astro` from the downloaded Libadwaita Web folder:
 
 ```Bash
-cp ~/Downloads/main/CSS/global.css src/styles/global.css && cp ~/Downloads/main/Astro/index.astro src/pages/index.astro
+cp ~/Downloads/Libadwaita-Web-main/CSS/global.css src/styles/global.css && cp ~/Downloads/Libadwaita-Web-main/Astro/index.astro src/pages/index.astro
 ```
 
 **4 -** *(Optional but recommended)* Copy the `Adwaita.svg` from the downloaded Libadwaita Web folder to your `public` directory:
 
 ```bash
-cp ~/Downloads/main/Adwaita.svg public/Adwaita.svg
+cp ~/Downloads/Libadwaita-Web-main/Adwaita.svg public/Adwaita.svg
 ```

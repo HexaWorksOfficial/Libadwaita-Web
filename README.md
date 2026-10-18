@@ -1,3 +1,5 @@
+<img width="1366" height="768" alt="Libadwita Web" src="https://github.com/user-attachments/assets/b0e5f768-f1a8-4f96-bf4a-217c0b69fe9f" />
+
 # Libadwaita Web
 
 Libadwaita Web is an CSS + Astro Theme for WebSites, based on Libadwaita and Adwaita.

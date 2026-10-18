@@ -19,7 +19,7 @@ npx astro add tailwind
 You can download Libadwaita Web with Nexo:
 
 ```Bash
-nexo download https://github.com/HexaWorksOfficial/Nexo/archive/refs/heads/main.zip -o ~/Downloads/main.zip
+nexo download https://github.com/HexaWorksOfficial/Libadwaita-Web/archive/refs/heads/main.zip -o ~/Downloads/main.zip
 ```
 
 **With curl:**
@@ -27,7 +27,7 @@ nexo download https://github.com/HexaWorksOfficial/Nexo/archive/refs/heads/main.
 Or with curl:
 
 ```Bash
-curl -o https://github.com/HexaWorksOfficial/Nexo/archive/refs/heads/main.zip ~/Downloads/main.zip
+curl -o https://github.com/HexaWorksOfficial/Libadwaita-Web/archive/refs/heads/main.zip ~/Downloads/main.zip
 ```
 
 **2 -** unstract the `.zip`:
